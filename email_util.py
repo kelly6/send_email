@@ -6,8 +6,8 @@ from email.MIMEMultipart import MIMEMultipart
 from email.header import Header
 import zipfile
 
-from_addr = "spider_alert@yqzbw.com"
-pass_word = "zhxg_2014"
+from_addr = "123456@qq.com"
+pass_word = "password"
 
 def send_mail(to_addrs, title, content):
     smtphd = smtplib.SMTP_SSL("smtp.exmail.qq.com", 465)
